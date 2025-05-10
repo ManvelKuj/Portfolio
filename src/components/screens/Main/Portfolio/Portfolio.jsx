@@ -27,8 +27,8 @@ export const Portfolio = () => {
                   <figure>
                     <img src={work.img} alt="storiescafe" />
                     <figcaption className={portfolio.info}>
-                      <h2><span>Stories</span> cafe</h2>
-                      <p>Верстка + натяжка на Wordpress(ACF)</p>
+                      <h2>{work.title}</h2>
+                      <p>{work.subtitle}</p>
                     </figcaption>
                   </figure>
                 </div>

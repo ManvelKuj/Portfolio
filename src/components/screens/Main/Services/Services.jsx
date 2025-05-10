@@ -14,7 +14,7 @@ export const Services = () => {
   return (
     <section id="services" className={services.services}>
       <div className="container">
-        <Title titleName="Что я делаю"></Title>
+        <Title titleName="Что я умею"></Title>
         <div className={services.inner}>
           <div className={services.column}>
             <div className={services.item}>
