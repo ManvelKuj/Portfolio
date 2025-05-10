@@ -3,8 +3,8 @@
 }
 .works {
    display: flex;
-   justify-content: space-between;
    flex-wrap: wrap;
+   gap: 30px;
 }
 .content {
    height: 100%;
@@ -14,7 +14,7 @@
    flex: 0 0 33.3333%;
    position: relative;
    height: 210px;
-   margin: 0px -10px 30px -10px;
+   margin: 0px -10px;
    padding: 0px 10px;
 
    @media (max-width: 1200px) {
