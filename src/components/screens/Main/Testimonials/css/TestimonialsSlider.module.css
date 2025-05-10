@@ -1,0 +1,42 @@
+@charset "UTF-8";
+.review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 70%;
+          flex: 0 0 70%;
+}
+
+.text {
+  font-size: 1.8em;
+  color: #888;
+  font-weight: 300;
+  margin: 0.4em 0 1em;
+}
+
+.name {
+  display: block;
+  font-size: 80%;
+  line-height: 1.42857143;
+  color: #777;
+  font-size: 1.2em;
+}
+.name:before {
+  content: "― ";
+}
+
+.sliderWrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
